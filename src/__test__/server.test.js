@@ -75,18 +75,12 @@ describe('/api/penguins', () => {
   });
   describe('DELETE /api/penguins', () => {
     test('should respond with 204 if there are no errors', () => {
-      // let penguinToTest = null;
       return createPenguinMock()
         .then((penguin) => {
-          // penguinToTest = penguin;
           return superagent.delete(`${apiURL}/${penguin._id}`);
         })
         .then((response) => {
           expect(response.status).toEqual(204);
-          // expect(response.body.species).toEqual(penguinToTest.species);        
-          // expect(response.body.firstName).toEqual(penguinToTest.firstName);
-          // expect(response.body.lastName).toEqual(penguinToTest.lastName);
-          // expect(response.body.gender).toEqual(penguinToTest.gender);
         });
     });
     test('should respond with 404 if there is no penguin to be found', () => {

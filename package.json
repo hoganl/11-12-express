@@ -1,10 +1,10 @@
 {
-  "name": "10-stacks",
+  "name": "11-12-express",
   "version": "1.0.0",
-  "description": "![cf](http://i.imgur.com/7v5ASc8.png) lab 10 - Stacks and Queues Data Structures\r ====",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "eslint . && jest --coverage --forceExit",
+    "test": "eslint . && jest --coverage --forceExit --runInBand",
     "lint": "eslint .",
     "start": "nodemon main.js",
     "dbon": "mkdir -p ./db && mongod --db path ./db",
@@ -15,17 +15,9 @@
       "<rootDir>/src/__test__/lib/test.env.js"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hoganl/10-stacks.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hoganl/10-stacks/issues"
-  },
-  "homepage": "https://github.com/hoganl/10-stacks#readme",
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "babel-preset-env": "^1.6.1",
@@ -43,8 +35,8 @@
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "faker": "^4.1.0",
+    "http-errors": "^1.6.3",
     "mongoose": "^5.0.16",
-    "uuid": "^3.2.1",
     "winston": "^3.0.0-rc5"
   }
 }

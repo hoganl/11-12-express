@@ -1,0 +1,109 @@
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"error","message":"__POST_ERROR__"}
+{"errors":{"lastName":{"message":"Path `lastName` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"lastName"},"kind":"required","path":"lastName","$isValidatorError":true},"id":{"message":"Path `id` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"id"},"kind":"required","path":"id","$isValidatorError":true}},"_message":"penguin validation failed","message":"penguin validation failed: lastName: Path `lastName` is required., id: Path `id` is required.","name":"ValidationError","level":"error"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"error","message":"__POST_ERROR__"}
+{"errors":{"id":{"message":"Path `id` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"id"},"kind":"required","path":"id","$isValidatorError":true}},"_message":"penguin validation failed","message":"penguin validation failed: id: Path `id` is required.","name":"ValidationError","level":"error"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"error","message":"__POST_ERROR__"}
+{"errors":{"lastName":{"message":"Path `lastName` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"lastName"},"kind":"required","path":"lastName","$isValidatorError":true},"id":{"message":"Path `id` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"id"},"kind":"required","path":"id","$isValidatorError":true}},"_message":"penguin validation failed","message":"penguin validation failed: lastName: Path `lastName` is required., id: Path `id` is required.","name":"ValidationError","level":"error"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"error","message":"__POST_ERROR__"}
+{"errors":{"id":{"message":"Path `id` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"id"},"kind":"required","path":"id","$isValidatorError":true}},"_message":"penguin validation failed","message":"penguin validation failed: id: Path `id` is required.","name":"ValidationError","level":"error"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"error","message":"__POST_ERROR__"}
+{"errors":{"lastName":{"message":"Path `lastName` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"lastName"},"kind":"required","path":"lastName","$isValidatorError":true},"id":{"message":"Path `id` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"id"},"kind":"required","path":"id","$isValidatorError":true}},"_message":"penguin validation failed","message":"penguin validation failed: lastName: Path `lastName` is required., id: Path `id` is required.","name":"ValidationError","level":"error"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"error","message":"__POST_ERROR__"}
+{"errors":{"id":{"message":"Path `id` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"id"},"kind":"required","path":"id","$isValidatorError":true}},"_message":"penguin validation failed","message":"penguin validation failed: id: Path `id` is required.","name":"ValidationError","level":"error"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"error","message":"__POST_ERROR__"}
+{"errors":{"lastName":{"message":"Path `lastName` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"lastName"},"kind":"required","path":"lastName","$isValidatorError":true},"id":{"message":"Path `id` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"id"},"kind":"required","path":"id","$isValidatorError":true}},"_message":"penguin validation failed","message":"penguin validation failed: lastName: Path `lastName` is required., id: Path `id` is required.","name":"ValidationError","level":"error"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"error","message":"__POST_ERROR__"}
+{"errors":{"id":{"message":"Path `id` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"id"},"kind":"required","path":"id","$isValidatorError":true}},"_message":"penguin validation failed","message":"penguin validation failed: id: Path `id` is required.","name":"ValidationError","level":"error"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"error","message":"__POST_ERROR__"}
+{"errors":{"lastName":{"message":"Path `lastName` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"lastName"},"kind":"required","path":"lastName","$isValidatorError":true},"id":{"message":"Path `id` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"id"},"kind":"required","path":"id","$isValidatorError":true}},"_message":"penguin validation failed","message":"penguin validation failed: lastName: Path `lastName` is required., id: Path `id` is required.","name":"ValidationError","level":"error"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"error","message":"__POST_ERROR__"}
+{"errors":{"id":{"message":"Path `id` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"id"},"kind":"required","path":"id","$isValidatorError":true}},"_message":"penguin validation failed","message":"penguin validation failed: id: Path `id` is required.","name":"ValidationError","level":"error"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"error","message":"__POST_ERROR__"}
+{"errors":{"lastName":{"message":"Path `lastName` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"lastName"},"kind":"required","path":"lastName","$isValidatorError":true},"id":{"message":"Path `id` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"id"},"kind":"required","path":"id","$isValidatorError":true}},"_message":"penguin validation failed","message":"penguin validation failed: lastName: Path `lastName` is required., id: Path `id` is required.","name":"ValidationError","level":"error"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"error","message":"__POST_ERROR__"}
+{"errors":{"species":{"message":"Path `species` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"species"},"kind":"required","path":"species","$isValidatorError":true}},"_message":"penguin validation failed","message":"penguin validation failed: species: Path `species` is required.","name":"ValidationError","level":"error"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Returning a 404 from the catch-all/default route"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"POST - processing a request"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"info","message":"GET - processing a request"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"GET - processing a request"}
+{"level":"info","message":"GET - responding with a 404 status code - objectId"}
+{"level":"verbose","message":"Could not parse the specific object id InvalidId"}
+{"level":"info","message":"Server is off"}

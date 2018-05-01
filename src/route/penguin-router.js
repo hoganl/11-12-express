@@ -55,13 +55,9 @@ penguinRouter.delete('/api/penguins/:id', (request, response) => {
   logger.log(logger.INFO, 'DELETE - processing a request');
 
   return Penguin.findByIdAndRemove(request.params.id)
-    .then((penguin) => {
-      if (!penguin) {
-        logger.log(logger.INFO, 'DELETE - responding with a 404 status code - (!penguin)');
-        return response.sendStatus(404);
-      }
+    .then(() => {
       logger.log(logger.INFO, 'DELETE - responding with a 204 status code');
-      return response.json(penguin);
+      return response.sendStatus(204);
     })
     .catch((error) => {
       if (error.message.toLowerCase().indexOf('cast to objectid failed') > -1) {

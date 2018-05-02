@@ -51,6 +51,19 @@ penguinRouter.get('/api/penguins/:id', (request, response, next) => {
     .catch(next);
 });
 
+penguinRouter.get('/api/penguins', (request, response, next) => {
+  return Penguin.find()
+    .then((penguins) => {
+      if (!penguins) {
+        logger.log(logger.INFO, 'GET - responding with a 404 status code - (!penguins)');
+        return next(new HttpErrors(404, 'penguins not found'));
+      }
+      logger.log(logger.INFO, 'GET - responding with a 200 status code');
+      return response.json(penguins);
+    })
+    .catch(next);
+});
+
 penguinRouter.delete('/api/penguins/:id', (request, response, next) => {
   return Penguin.findByIdAndRemove(request.params.id)
     .then(() => {

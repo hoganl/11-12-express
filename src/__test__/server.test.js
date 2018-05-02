@@ -16,6 +16,12 @@ const createPenguinMock = () => {
   }).save();
 };
 
+const createManyPenguinMocks = (howManyPenguins) => {
+  return Promise.all(new Array(howManyPenguins)
+    .fill(0)
+    .map(() => createPenguinMock()));
+};
+
 describe('/api/penguins', () => {
   beforeAll(startServer);
   afterAll(stopServer);
@@ -51,7 +57,7 @@ describe('/api/penguins', () => {
   });
   
   describe('GET /api/penguins', () => {
-    test('should respond with 200 if there are no errors', () => {
+    test('should respond with 200 if there are no errors to retrieve one', () => {
       let penguinToTest = null;
       return createPenguinMock()
         .then((penguin) => {
@@ -64,6 +70,18 @@ describe('/api/penguins', () => {
           expect(response.body.firstName).toEqual(penguinToTest.firstName);
           expect(response.body.description).toEqual(penguinToTest.description);
           expect(response.body.gender).toEqual(penguinToTest.gender);
+        });
+    });
+    test('should respond with 200 if there are no errors to retrieve all', () => {
+      const penguinsLength = 5;
+      return createManyPenguinMocks(penguinsLength)
+        .then(() => {
+          return superagent.get(`${apiURL}`);
+        })
+        .then((response) => {
+          expect(response.status).toEqual(200); 
+          const responseLength = JSON.parse(response.text).length;
+          expect(responseLength).toEqual(5);
         });
     });
     test('should respond with 404 if there is no penguin to be found', () => {

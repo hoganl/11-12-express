@@ -154,3 +154,404 @@
 {"level":"error","message":"error"}
 {"level":"info","message":"Responding with a 404"}
 {"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message species is required"}
+{"level":"info","message":"Processing a GET on /api/penguins/5ae91d5bfd9fe60ba4252f7e"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a PUT on /api/penguins/5ae91d5cfd9fe60ba4252f7f"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/5ae91d5cfd9fe60ba4252f80"}
+{"level":"info","message":"DELETE - responding with a 204 status code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 204 code and message Penguin deleted"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message species is required"}
+{"level":"info","message":"Processing a GET on /api/penguins/5ae91e9687b1484304e390a6"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a PUT on /api/penguins/5ae91e9787b1484304e390a7"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/5ae91e9787b1484304e390a8"}
+{"level":"info","message":"DELETE - responding with a 204 status code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 204 code and message Penguin deleted"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 409"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message species is required"}
+{"level":"info","message":"Processing a GET on /api/penguins/5ae921a6eb0ab04554b740a2"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a PUT on /api/penguins/5ae921aaeb0ab04554b740a8"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/5ae921aaeb0ab04554b740a9"}
+{"level":"info","message":"DELETE - responding with a 204 status code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 204 code and message Penguin deleted"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message species is required"}
+{"level":"info","message":"Processing a GET on /api/penguins/5ae923a344b4f641644357c6"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a PUT on /api/penguins/5ae923a744b4f641644357cc"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/5ae923a744b4f641644357cd"}
+{"level":"info","message":"DELETE - responding with a 204 status code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 204 code and message Penguin deleted"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message species is required"}
+{"level":"info","message":"Processing a GET on /api/penguins/5ae924523b4b615870a65519"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a PUT on /api/penguins/5ae924573b4b615870a6551f"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/5ae924573b4b615870a65520"}
+{"level":"info","message":"DELETE - responding with a 204 status code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 204 code and message Penguin deleted"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message species is required"}
+{"level":"info","message":"Processing a GET on /api/penguins/5ae925078b0a8310e8022379"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a PUT on /api/penguins/5ae9250b8b0a8310e802237f"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/5ae9250b8b0a8310e8022380"}
+{"level":"info","message":"DELETE - responding with a 204 status code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 204 code and message Penguin deleted"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message species is required"}
+{"level":"info","message":"Processing a GET on /api/penguins/5ae92553024d431e1c63d503"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a PUT on /api/penguins/5ae92557024d431e1c63d509"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/5ae92557024d431e1c63d50a"}
+{"level":"info","message":"DELETE - responding with a 204 status code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 204 code and message Penguin deleted"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message species is required"}
+{"level":"info","message":"Processing a GET on /api/penguins/5ae925d9101b5335d828b2b0"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a PUT on /api/penguins/5ae925dd101b5335d828b2b6"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/5ae925dd101b5335d828b2b7"}
+{"level":"info","message":"DELETE - responding with a 204 status code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 204 code and message Penguin deleted"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message species is required"}
+{"level":"info","message":"Processing a GET on /api/penguins/5ae925fcafbb0b53488f4f45"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a PUT on /api/penguins/5ae92600afbb0b53488f4f4b"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/5ae92600afbb0b53488f4f4c"}
+{"level":"info","message":"DELETE - responding with a 204 status code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 204 code and message Penguin deleted"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message species is required"}
+{"level":"info","message":"Processing a GET on /api/penguins/5ae926394926f83d5c6bd8ce"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a PUT on /api/penguins/5ae9263d4926f83d5c6bd8d4"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/5ae9263d4926f83d5c6bd8d5"}
+{"level":"info","message":"DELETE - responding with a 204 status code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 204 code and message Penguin deleted"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message species is required"}
+{"level":"info","message":"Processing a GET on /api/penguins/5ae92676a137c1158433002d"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a PUT on /api/penguins/5ae9267aa137c11584330033"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/5ae9267aa137c11584330034"}
+{"level":"info","message":"DELETE - responding with a 204 status code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 204 code and message Penguin deleted"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Server is off"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"POST - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/penguins"}
+{"level":"info","message":"Responding with a 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message species is required"}
+{"level":"info","message":"Processing a GET on /api/penguins/5ae9286335f9bd1570c61634"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins"}
+{"level":"info","message":"GET - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a PUT on /api/penguins/5ae9286735f9bd1570c6163a"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/5ae9286735f9bd1570c6163b"}
+{"level":"info","message":"DELETE - responding with a 204 status code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 204 code and message Penguin deleted"}
+{"level":"info","message":"Processing a DELETE on /api/penguins/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Server is off"}

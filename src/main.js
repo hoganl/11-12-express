@@ -1,5 +1,5 @@
-'use strict';
+// 'use strict';
 
-const server = require('./lib/server');
+// import { startServer } from './lib/server';
 
-server.start();
+// startServer();

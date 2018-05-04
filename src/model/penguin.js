@@ -11,8 +11,9 @@ const penguinSchema = mongoose.Schema({
     type: String,
     required: true,
   },
-  lastName: {
+  description: {
     type: String,
+    minlength: 10,
   },
   gender: {
     type: String,

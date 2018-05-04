@@ -2,6 +2,7 @@
 
 import { Router } from 'express';
 import bodyParser from 'body-parser';
+import HttpErrors from 'http-errors';
 import Penguin from '../model/penguin';
 import logger from '../lib/logger';
 
@@ -9,66 +10,67 @@ const jsonParser = bodyParser.json();
 
 const penguinRouter = new Router();
 
-penguinRouter.post('/api/penguins', jsonParser, (request, response) => {
-  logger.log(logger.INFO, 'POST - processing a request');
+penguinRouter.post('/api/penguins', jsonParser, (request, response, next) => {
   if (!request.body.species) {
     logger.log(logger.INFO, 'Responding with a 400 error code');
-    return response.sendStatus(400);
+    return next(new HttpErrors(400, 'species is required'));
   }
   return new Penguin(request.body).save()
     .then((penguin) => {
       logger.log(logger.INFO, 'POST - responding with a 200 status code');
       return response.json(penguin);
     })
-    .catch((error) => {
-      logger.log(logger.ERROR, '__POST_ERROR__');
-      logger.log(logger.ERROR, error);
-      return response.sendStatus(500);
-    });
+    .catch(next);
 });
 
-penguinRouter.get('/api/penguins/:id', (request, response) => {
-  logger.log(logger.INFO, 'GET - processing a request');
+penguinRouter.put('/api/penguins/:id', jsonParser, (request, response, next) => {
+  const options = { runValidators: true, new: true };
+  
+  return Penguin.findByIdAndUpdate(request.params.id, request.body, options)
+    .then((updatedPenguin) => {
+      if (!updatedPenguin) {
+        logger.log(logger.INFO, 'PUT - responding with a 404 status code - (!penguin)');
+        return next(new HttpErrors(404, 'penguin not found'));
+      }
+      logger.log(logger.INFO, 'PUT - responding with a 200 status code');
+      return response.json(updatedPenguin);
+    })
+    .catch(next);
+});
 
+penguinRouter.get('/api/penguins/:id', (request, response, next) => {
   return Penguin.findById(request.params.id)
     .then((penguin) => {
       if (!penguin) {
         logger.log(logger.INFO, 'GET - responding with a 404 status code - (!penguin)');
-        return response.sendStatus(404);
+        return next(new HttpErrors(404, 'penguin not found'));
       }
       logger.log(logger.INFO, 'GET - responding with a 200 status code');
       return response.json(penguin);
     })
-    .catch((error) => {
-      if (error.message.toLowerCase().indexOf('cast to objectid failed') > -1) {
-        logger.log(logger.INFO, 'GET - responding with a 404 status code - objectId');
-        logger.log(logger.VERBOSE, `Could not parse the specific object id ${request.params.id}`);
-        return response.sendStatus(404);
-      }
-      logger.log(logger.ERROR, '__GET_ERROR__ Returning a 500 status code');
-      logger.log(logger.ERROR, error);
-      return response.sendStatus(500);
-    });
+    .catch(next);
 });
 
-penguinRouter.delete('/api/penguins/:id', (request, response) => {
-  logger.log(logger.INFO, 'DELETE - processing a request');
+penguinRouter.get('/api/penguins', (request, response, next) => {
+  return Penguin.find()
+    .then((penguins) => {
+      if (!penguins) {
+        logger.log(logger.INFO, 'GET - responding with a 404 status code - (!penguins)');
+        return next(new HttpErrors(404, 'penguins not found'));
+      }
+      logger.log(logger.INFO, 'GET - responding with a 200 status code');
+      return response.json(penguins);
+    })
+    .catch(next);
+});
 
+penguinRouter.delete('/api/penguins/:id', (request, response, next) => {
   return Penguin.findByIdAndRemove(request.params.id)
     .then(() => {
       logger.log(logger.INFO, 'DELETE - responding with a 204 status code');
-      return response.sendStatus(204);
+      return next(new HttpErrors(204, 'Penguin deleted'));
     })
-    .catch((error) => {
-      if (error.message.toLowerCase().indexOf('cast to objectid failed') > -1) {
-        logger.log(logger.INFO, 'DELETE - responding with a 404 status code - objectId');
-        logger.log(logger.VERBOSE, `Could not parse the specific object id ${request.params.id}`);
-        return response.sendStatus(404);
-      }
-      logger.log(logger.ERROR, '__DELETE_ERROR__ Returning a 500 status code');
-      logger.log(logger.ERROR, error);
-      return response.sendStatus(500);
-    });
+    .catch(next);
 });
 
 export default penguinRouter;
